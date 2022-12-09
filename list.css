@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.container {
+    margin: auto;
+    max-width: 700px;
+    background-color: rgb(248, 248, 246);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px;
+    
+}
+body {
+    background: rgb(238, 232, 232);
+    letter-spacing: 1px;
+    font: bolder 16px 'Josefin Sans', sans-serif;
+    word-spacing: 2px;
+}
+.head {
+    text-align: center;
+}
+.card {
+    background: rgba(224, 202, 202, 0.568);
+    border: 2px solid MidnightBlue;
+    font-style: italic;
+    color: rgb(2, 2, 100);
+    padding: 8px;
+    text-align: center;
+    border-radius: 15px;
+}
+.job {
+    display: flex;
+}
+.info {
+    margin-left: 40px;
+}
+.png {
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px;
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+.find {
+    text-align: center;
+}
+.list23 {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+.hobby {
+    background: #c1f5ac91;
+    font-style: italic;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 1px;
+    margin-top: 10px;
+}
+.list23 li {
+    border-bottom: 1px solid black;
+    padding-top: 8px;
+    margin-top: 10px;
+}
+.hobby h2 {
+    padding-top: 10px;
+    margin: 0;
+}
+.table {
+    border-radius: 15px;
+    background-color: rgba(227, 240, 158, 0.733);
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+} 
+.table th, td {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: rgb(2, 2, 100);
+}
+a:hover {
+    color: orangered;
+    text-decoration: none;
+}
+a:active {
+    color: green;
+}
+a:visited {
+    color: rgb(209, 26, 163);
+}
+.btn {
+    padding: 10px;
+    background-color: #b6c71f;
+    border: none;
+    margin: 15px 0px;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: block;
+}
+.btn:hover {
+    opacity: .8;
+    color: orangered;
+}
+.table th:hover {
+    background: #db9b0fc5
+}
+.table td:hover {
+    background: #00a0fd81;
+}
+.form-1 label,
+.form-2 label {
+    display: block;
+    padding: 1px 0;
+    color: rgb(8, 137, 141);
+}
+.form-1 input, 
+.form-2 textarea {
+    border: none;
+    background: rgb(248, 248, 246);
+    font-family: inherit;
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 6px 0;
+}
+.form-group .form-1 {
+    display: inline-block;
+    width: 49%;
+}
+.form-2 label {
+    margin-top: 5px;
+}
+.form h2 {
+    text-align: center;
+}
+@media(max-width: 500px) {
+    .job{
+        display: inline;
+    }
+    .info {
+        display: inline;
+    }
+}
+@media(max-width: 300px) {
+    .head {
+        font-size: 11px;
+    }
+}
